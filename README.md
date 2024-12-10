@@ -84,9 +84,3 @@ Cần thiết lập các môi trường cần thiết để chạy các mô hìn
 - Các kết quả thử nghiệm được lưu trữ dưới dạng các file Excel trong thư mục `Store/Epochs Test Deep Learning`.
 
 ---
-
-## License
-
-Dự án này sử dụng giấy phép [MIT License](LICENSE).
-
----

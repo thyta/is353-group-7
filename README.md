@@ -60,27 +60,27 @@ Chứa mã nguồn ứng dụng web sử dụng Anvil Platform để dự đoán
 
 ### 2. Thiết lập môi trường
 
-Cần thiết lập các môi trường cần thiết để chạy các mô hình học máy và học sâu. Đảm bảo bạn có các công cụ như TensorFlow, PyTorch và các thư viện phân tích dữ liệu như Pandas, NumPy.
+Cần thiết lập các môi trường cần thiết để chạy các mô hình. Đảm bảo bạn có các công cụ như TensorFlow và các thư viện phân tích dữ liệu như Pandas, NumPy.
 
 ### 3. Chạy ứng dụng Anvil
 
 Ứng dụng Anvil Platform có thể được triển khai và sử dụng để dự đoán kết quả từ mô hình CNN 2 inputs. Bạn có thể tìm hướng dẫn chi tiết tại [Anvil Documentation](https://anvil.works/docs).
 
+Hãy cấu hình Anvil theo trước khi chạy file Predict_CNN_2_inputs.ipynb để biến jupyter local thành server cho Anvil.
 ---
 
 ## Cách sử dụng
 
 1. **Dữ liệu đầu vào**: Đảm bảo rằng bạn có dữ liệu đã được xử lý đúng cách từ các bước tổng hợp (fact).
 2. **Chạy mô hình học máy**: Sử dụng các mô hình trong thư mục `Models/Machine Learning` để dự đoán và đánh giá độ chính xác.
-3. **Huấn luyện mô hình học sâu**: Tiến hành huấn luyện các mô hình trong thư mục `Models/Deep Learning` và điều chỉnh các tham số như epochs để tối ưu hóa hiệu suất mô hình.
-4. **Trực quan hóa và phân tích dữ liệu**: Sử dụng Power BI hoặc các công cụ Python như Matplotlib và Seaborn để phân tích kết quả.
-5. **Ứng dụng dự đoán**: Tải mô hình đã huấn luyện vào ứng dụng Anvil để dự đoán và hiển thị kết quả.
+3. **Trực quan hóa và phân tích dữ liệu**: Sử dụng Power BI hoặc các công cụ Python như Matplotlib và Seaborn để phân tích kết quả.
+4.  **Huấn luyện mô hình học sâu**: Tiến hành huấn luyện các mô hình trong thư mục `Models/Deep Learning` và điều chỉnh các tham số như epochs để tối ưu hóa hiệu suất mô hình.
+5. **Ứng dụng và dự đoán**: Chạy ứng dụng React và Tải mô hình đã huấn luyện vào ứng dụng Anvil để dự đoán và hiển thị kết quả.
 
 ---
 
 ## Ghi chú
 
-- Đảm bảo các mô hình học sâu được huấn luyện với các tham số tối ưu trước khi triển khai vào ứng dụng.
-- Các kết quả thử nghiệm được lưu trữ dưới dạng các file Excel trong thư mục `Store/Epochs Test Deep Learning`.
+Các thư viện sử dụng có thể bị lỗi thời theo thời gian nên code của thể không đảm bảo khả năng chạy lại trong tương lai.
 
 ---
